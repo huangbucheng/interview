@@ -1,6 +1,13 @@
 #include <iostream>
 #include <vector>
 
+/*
+ * 将一个数组的2个区间交换：
+ * 例：
+ * a = [1,2,3,4,8,5,7,6,9]; 指定区间[3,4] 和 [5,7,6]进行交换，交换后数组变成：
+ * a = [1,2,5,7,6,8,3,4,9];
+ */
+
 void print(std::vector<int>& arr) {
     for (int i = 0; i < arr.size(); i++) {
         std::cout << arr[i] << " ";
